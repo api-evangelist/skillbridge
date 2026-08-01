@@ -1,7 +1,25 @@
 aid: skillbridge
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skillbridge.png
 name: Skillbridge
-description: Skillbridge is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Skillbridge (skillbridge.co) was a New York-based online marketplace for
+  freelance consultants and independent professionals, connecting organizations from Fortune
+  500 companies to early-stage startups with vetted specialists for short-term engagements.
+  Founded in 2013, it was surfaced in the API Evangelist network as a 500 Global portfolio
+  company. Skillbridge was acquired by Toptal in 2016 and folded into what became Toptal
+  Business; the skillbridge.co domain now 301-redirects to toptal.com/finance. The company
+  operates no independent developer API, documentation, developer portal, SDKs, or event
+  surface, so there are no technical artifacts to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/skillbridge/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,21 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: toptal
+x-acquired-year: 2016
+x-domain-redirect: https://www.toptal.com/finance
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Consulting
+- Freelance
+- Marketplace
+- Talent
+- Professional Services
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,9 @@ maintainers:
 common:
 - type: Website
   url: https://skillbridge.co
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: Domain redirects to toptal.com/finance (acquired 2016); no API surface to enrich.
