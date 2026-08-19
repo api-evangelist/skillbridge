@@ -31,7 +31,7 @@ x-status: acquired
 x-acquired-by: toptal
 x-acquired-year: 2016
 x-domain-redirect: https://www.toptal.com/finance
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
