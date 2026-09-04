@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://skillbridge.co', status: 301, note: 'declared website redirects to https://www.toptal.com/management-consultants/finance — a different registrable domain (skillbridge.co -> toptal.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skillbridge.png
 name: Skillbridge
 description: 'Skillbridge (skillbridge.co) was a New York-based online marketplace for
